@@ -14,7 +14,7 @@ class Exercise
     for i in 0..a.length-1 do
       if a[i].length > 4
         if a[i][-1] =~ /[[:punct:]]/
-          a[i] = a[i][0].upcase == a[i][0] ? "Marklar".cncat(a[i][-1]) : "marklar".concat(a[i][-1])
+          a[i] = a[i][0].upcase == a[i][0] ? "Marklar".concat(a[i][-1]) : "marklar".concat(a[i][-1])
         else
           a[i] = a[i][0].upcase == a[i][0] ? "Marklar" : "marklar"
         end
